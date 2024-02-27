@@ -1,3 +1,5 @@
+
+#inicio do jogo
 while True:
     print("Escolha uma opção:")
     print("1. Pedra")
@@ -16,9 +18,7 @@ while True:
     from random import randint
     computador_escolha = randint (0,2)
 
-  # --------------------------------------------------
-  # FAÇA COM QUE A ESCOLHA DO COMPUTADOR SEJA ALEATÓRIA
-  # --------------------------------------------------
+ 
 
     print("Você escolheu:", opcoes[jogador_escolha])
     print("O computador escolheu:", opcoes[computador_escolha])
